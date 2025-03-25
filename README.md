@@ -42,19 +42,22 @@ Testing Datasets on Realistic Motion Blur:
 
 # Train
 ```python
-python train_LD_37.py
+python train_Gaussian.py
+python train_Realistic.py
 ```
 # Test
 ```python
-python test_LD_37.py 
+python test_Gaussian_REDS4.py
+python test_Gaussian_Vid4.py
+python test_Gaussian_UDM10.py 
 ```
 # Citation
 If this repository is helpful to your research, please cite our paper:
 ```python
-@article{zhu2025fcvsr,
-  title={FCVSR: A Frequency-aware Method for Compressed Video Super-Resolution},
-  author={Zhu, Qiang and Zhang, Fan and Chen, Feiyu and Zhu, Shuyuan and Bull, David and Zeng, Bing},
-  journal={arXiv preprint arXiv:2502.06431},
+@article{zhu2025blind,
+  title={Blind Video Super-Resolution based on Implicit Kernels},
+  author={Zhu, Qiang and Jiang, Yuxuan and Zhu, Shuyuan and Zhang, Fan and Bull, David and Zeng, Bing},
+  journal={arXiv preprint arXiv:2503.07856},
   year={2025}
 }
 ```
