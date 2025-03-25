@@ -25,19 +25,13 @@ Training Datasets:
 
 Testing GT Datasets:
 
-[REDS4 dataset] [REDS4-GT](https://seungjunnah.github.io/Datasets/reds.html)
-
-[Vid4 dataset] [Vid4-GT](https://drive.google.com/drive/folders/1An6hF1oYkeWxfOBxxKm073mvgIFrBNDA)
-
-[UDM10 dataset] [UDM10-GT](https://github.com/psychopa4/PFNL)
+[REDS4 dataset] [REDS4-GT](https://seungjunnah.github.io/Datasets/reds.html), [Vid4 dataset] [Vid4-GT](https://drive.google.com/drive/folders/1An6hF1oYkeWxfOBxxKm073mvgIFrBNDA), [UDM10 dataset] [UDM10-GT](https://github.com/psychopa4/PFNL)
 
 Testing Datasets on Gaussian Blur:
 
-[REDS4-Gaussian Blur] (https://seungjunnah.github.io/Datasets/reds.html)
-
-[Vid4-Gaussian Blur] (https://drive.google.com/drive/folders/1An6hF1oYkeWxfOBxxKm073mvgIFrBNDA)
-
-[UDM10-Gaussian Blur] (https://drive.google.com/drive/folders/1An6hF1oYkeWxfOBxxKm073mvgIFrBNDA)
+[REDS4-Gaussian Blur](https://seungjunnah.github.io/Datasets/reds.html),
+[Vid4-Gaussian Blur](https://drive.google.com/drive/folders/1An6hF1oYkeWxfOBxxKm073mvgIFrBNDA),
+[UDM10-Gaussian Blur](https://drive.google.com/drive/folders/1An6hF1oYkeWxfOBxxKm073mvgIFrBNDA)
 
 Testing Datasets on Realistic Motion Blur:
 
