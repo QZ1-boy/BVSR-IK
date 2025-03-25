@@ -35,11 +35,9 @@ Testing Datasets on Gaussian Blur:
 
 Testing Datasets on Realistic Motion Blur:
 
-[REDS4-Realistic Motion Blur] (https://seungjunnah.github.io/Datasets/reds.html)
-
-[Vid4-Realistic Motion Blur] (https://drive.google.com/drive/folders/1An6hF1oYkeWxfOBxxKm073mvgIFrBNDA)
-
-[UDM10-Realistic Motion Blur] (https://drive.google.com/drive/folders/1An6hF1oYkeWxfOBxxKm073mvgIFrBNDA)
+[REDS4-Realistic Motion Blur](https://seungjunnah.github.io/Datasets/reds.html),
+[Vid4-Realistic Motion Blur](https://drive.google.com/drive/folders/1An6hF1oYkeWxfOBxxKm073mvgIFrBNDA),
+[UDM10-Realistic Motion Blur](https://drive.google.com/drive/folders/1An6hF1oYkeWxfOBxxKm073mvgIFrBNDA)
 
 ## Generation of Low-Resolution Compressed Videos
 The LDB coding configuration (HM16.25) is adopted to compress the low-resolution videos downsampled by Bicubic. 
