@@ -19,7 +19,7 @@ python -m pip install tqdm lmdb pyyaml opencv-python scikit-image
 ```
 
 ## Dataset Download
-Training Datasets:
+Training GT Datasets:
 
 [REDS dataset] [REDS-GT](https://seungjunnah.github.io/Datasets/reds.html)
 
