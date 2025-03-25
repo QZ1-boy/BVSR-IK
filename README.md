@@ -21,15 +21,15 @@ python -m pip install tqdm lmdb pyyaml opencv-python scikit-image
 ## Dataset Download
 Training Datasets:
 
-[REDS dataset] [REDS-GT] (https://seungjunnah.github.io/Datasets/reds.html)
+[REDS dataset] [REDS-GT](https://seungjunnah.github.io/Datasets/reds.html)
 
 Testing GT Datasets:
 
-[REDS4 dataset] [REDS4-GT] (https://seungjunnah.github.io/Datasets/reds.html)
+[REDS4 dataset] [REDS4-GT](https://seungjunnah.github.io/Datasets/reds.html)
 
-[Vid4 dataset] [Vid4-GT] (https://drive.google.com/drive/folders/1An6hF1oYkeWxfOBxxKm073mvgIFrBNDA)
+[Vid4 dataset] [Vid4-GT](https://drive.google.com/drive/folders/1An6hF1oYkeWxfOBxxKm073mvgIFrBNDA)
 
-[UDM10 dataset] [UDM10-GT] (https://github.com/psychopa4/PFNL)
+[UDM10 dataset] [UDM10-GT](https://github.com/psychopa4/PFNL)
 
 Testing Datasets on Gaussian Blur:
 
