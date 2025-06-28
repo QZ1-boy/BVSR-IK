@@ -61,3 +61,5 @@ If this repository is helpful to your research, please cite our paper:
   year={2025}
 }
 ```
+# Related Works
+Our project was built on the video super-resolution method [FMA-Net](https://github.com/zhaominyiz/FMA-Net).
