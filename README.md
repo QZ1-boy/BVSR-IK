@@ -32,6 +32,8 @@ Testing Datasets on Gaussian Blur and Realistic Motion Blur:
 
 Put the downloaded training datasets and testing datasets into the ./dataset file path. 
 
+Pre-trained models: [Moldes](https://pan.baidu.com/s/1v8xUdNQ2P7k3KQO6y-t4sw), Code [ckpt].
+
 
 # Train
 ```python
