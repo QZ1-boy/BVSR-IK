@@ -28,7 +28,6 @@ Testing GT Datasets:
 [REDS4 dataset] [REDS4-GT](https://seungjunnah.github.io/Datasets/reds.html), [Vid4 dataset] [Vid4-GT](https://drive.google.com/drive/folders/1An6hF1oYkeWxfOBxxKm073mvgIFrBNDA), [UDM10 dataset] [UDM10-GT](https://github.com/psychopa4/PFNL)
 
 Testing Datasets on Gaussian Blur and Realistic Motion Blur:
-
 [REDS4/Vid4/UDM10](https://pan.baidu.com/s/1u2rVDD7wfhpMGByKuSGr9w), Code [BVSR].
 
 Put the downloaded training datasets and testing datasets into the ./dataset file path. 
