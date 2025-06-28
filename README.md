@@ -5,6 +5,7 @@ The code of the paper "Blind Video Super-Resolution based on Implicit Kernels".
 # Requirements
 
 Python 3.9, PyTorch >= 1.9.1
+
 Platforms: Ubuntu 22.04
 
 ## Environment
