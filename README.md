@@ -4,16 +4,17 @@ The code of the paper "Blind Video Super-Resolution based on Implicit Kernels".
 
 # Requirements
 
-CUDA==11.6 Python==3.7 Pytorch==1.13
+Python 3.9, PyTorch >= 1.9.1
+Platforms: Ubuntu 22.04
 
 ## Environment
 ```python
-conda create -n BVSR python=3.7 -y && conda activate BVSR
+conda create -n BVSR python=3.9 -y && conda activate BVSR
 
 git clone --depth=1 https://github.com/QZ1-boy/BVSR && cd QZ1-boy/BVSR/
 
-# given CUDA 11.6
-python -m pip install torch==1.13.1+cu116 torchvision==0.14.1+cu116 torchaudio==0.13.1 --extra-index-url https://download.pytorch.org/whl/cu116
+# given CUDA 11.1
+python -m pip install torch==1.9.1+cu111 torchvision==0.10.1+cu111 torchaudio==0.9.1 -f https://download.pytorch.org/whl/torch_stable.html
 
 python -m pip install tqdm lmdb pyyaml opencv-python scikit-image
 ```
