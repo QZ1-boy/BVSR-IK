@@ -59,4 +59,4 @@ If this repository is helpful to your research, please cite our paper:
 }
 ```
 # Related Works
-Our project was built on the video super-resolution method [FMA-Net](https://github.com/KAIST-VICLab/FMA-Net).
+Our project was built on the video super-resolution method [FMA-Net](https://github.com/KAIST-VICLab/FMA-Net). We also release some blind video super-resolution models, e.g., [DBVSR](https://github.com/csbhr/Deep-Blind-VSR), [BSVSR](https://github.com/XY-boy/Blind-Satellite-VSR), [Self-BVSR](https://github.com/csbhr/Self-Blind-VSR).
