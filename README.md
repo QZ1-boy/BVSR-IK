@@ -33,6 +33,8 @@ Testing Datasets on Gaussian Blur and Realistic Motion Blur:
 
 [REDS4/Vid4/UDM10](https://pan.baidu.com/s/1u2rVDD7wfhpMGByKuSGr9w), Code [BVSR].
 
+Put the downloaded training datasets and testing datasets into the ./dataset file path. 
+
 
 # Train
 ```python
