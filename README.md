@@ -20,7 +20,7 @@ python -m pip install torch==1.9.1+cu111 torchvision==0.10.1+cu111 torchaudio==0
 python -m pip install tqdm lmdb pyyaml opencv-python scikit-image
 ```
 
-## Datasets Download
+## Datasets
 Training GT Datasets:
 
 [REDS dataset] [REDS-GT](https://seungjunnah.github.io/Datasets/reds.html)
