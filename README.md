@@ -27,29 +27,24 @@ Testing GT Datasets:
 
 [REDS4 dataset] [REDS4-GT](https://seungjunnah.github.io/Datasets/reds.html), [Vid4 dataset] [Vid4-GT](https://drive.google.com/drive/folders/1An6hF1oYkeWxfOBxxKm073mvgIFrBNDA), [UDM10 dataset] [UDM10-GT](https://github.com/psychopa4/PFNL)
 
-Testing Datasets on Gaussian Blur:
+Testing Datasets on Gaussian Blur and Realistic Motion Blur:
 
-[REDS4-Gaussian Blur](https://seungjunnah.github.io/Datasets/reds.html),
-[Vid4-Gaussian Blur](https://drive.google.com/drive/folders/1An6hF1oYkeWxfOBxxKm073mvgIFrBNDA),
-[UDM10-Gaussian Blur](https://drive.google.com/drive/folders/1An6hF1oYkeWxfOBxxKm073mvgIFrBNDA)
-
-Testing Datasets on Realistic Motion Blur:
-
-[REDS4-Realistic Motion Blur](https://seungjunnah.github.io/Datasets/reds.html),
-[Vid4-Realistic Motion Blur](https://drive.google.com/drive/folders/1An6hF1oYkeWxfOBxxKm073mvgIFrBNDA),
-[UDM10-Realistic Motion Blur](https://drive.google.com/drive/folders/1An6hF1oYkeWxfOBxxKm073mvgIFrBNDA)
+[REDS4/Vid4/UDM10](https://pan.baidu.com/s/1u2rVDD7wfhpMGByKuSGr9w), Code [BVSR].
 
 
 # Train
 ```python
-python train_Gaussian.py
-python train_Realistic.py
+CUDA_VISIBLE_DEVICES=1   python main_KCA.py  --train --Deg_option Gaussian_REDS --config_path exp_KCA_REDS_Gaussian.cfg 
+CUDA_VISIBLE_DEVICES=1   python main_KCA.py  --train --Deg_option Realistic_REDS --config_path exp_KCA_REDS_Realistic.cfg 
 ```
 # Test
 ```python
-python test_Gaussian_REDS4.py
-python test_Gaussian_Vid4.py
-python test_Gaussian_UDM10.py 
+CUDA_VISIBLE_DEVICES=1   python main_KCA.py  --test_REDS4  --Deg_option Gaussian_REDS  --config_path exp_KCA_REDS_Gaussian.cfg
+CUDA_VISIBLE_DEVICES=1   python main_KCA.py  --test_Vid4   --Deg_option Gaussian_REDS  --config_path exp_KCA_REDS_Gaussian.cfg 
+CUDA_VISIBLE_DEVICES=1   python main_KCA.py  --test_UDM10  --Deg_option Gaussian_REDS  --config_path exp_KCA_REDS_Gaussian.cfg
+CUDA_VISIBLE_DEVICES=1   python main_KCA.py  --test_REDS4  --Deg_option Realistic_REDS  --config_path exp_KCA_REDS_Realistic.cfg
+CUDA_VISIBLE_DEVICES=1   python main_KCA.py  --test_Vid4   --Deg_option Realistic_REDS  --config_path exp_KCA_REDS_Realistic.cfg 
+CUDA_VISIBLE_DEVICES=1   python main_KCA.py  --test_UDM10  --Deg_option Realistic_REDS  --config_path exp_KCA_REDS_Realistic.cfg
 ```
 # Citation
 If this repository is helpful to your research, please cite our paper:
@@ -57,7 +52,7 @@ If this repository is helpful to your research, please cite our paper:
 @article{zhu2025blind,
   title={Blind Video Super-Resolution based on Implicit Kernels},
   author={Zhu, Qiang and Jiang, Yuxuan and Zhu, Shuyuan and Zhang, Fan and Bull, David and Zeng, Bing},
-  journal={arXiv preprint arXiv:2503.07856},
+  conference={International Conference on Computer Vision},
   year={2025}
 }
 ```
