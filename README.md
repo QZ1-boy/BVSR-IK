@@ -62,4 +62,4 @@ If this repository is helpful to your research, please cite our paper:
 }
 ```
 # Related Works
-Our project was built on the video super-resolution method [FMA-Net](https://github.com/zhaominyiz/FMA-Net).
+Our project was built on the video super-resolution method [FMA-Net](https://github.com/KAIST-VICLab/FMA-Net).
