@@ -437,7 +437,7 @@ class KCA_REDS_Dataset_Relasitic:
         bath_path = None
         # val_bath_path = None
         if type == 'train':
-            bath_path = os.path.join(config.dataset_path, 'train_sharp_')
+            bath_path = os.path.join(config.dataset_path, 'train_sharp')
         if type == 'val':
             bath_path = os.path.join('./dataset/REDS4_BlurDown_Realistic_13', 'HR')  #  REDS4_BlurDown_Realistic_13 REDS4_BlurDown_Realistic_13_noise_15
         if type == 'test':
